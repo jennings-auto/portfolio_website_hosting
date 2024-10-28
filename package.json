@@ -1,9 +1,11 @@
 {
+  "homepage": "https://jennings-auto.github.io/sanimar_portfolio",
   "name": "3d-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "deploy": "gh-pages -d dist",
